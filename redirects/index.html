@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Twitter Test</title>
+</head>
+<body>
+Just testing to see if this even loads.
+<script type="text/javascript">
+<!--
+function testRedirectSource(){
+    window.open("http://firefoxos.non-existent-domain-asdfg/authenticated.html");
+}
+function testRedirectTarget(){
+    window.open("/redirects/authenticated.html");
+}
+//-->
+</script>
+<p>
+<input type="button" value="Open via redirection" onclick="testRedirectSource()"/>
+<input type="button" value="Open directly" onclick="testRedirectTarget()"/>
+</p>
+
+</html>

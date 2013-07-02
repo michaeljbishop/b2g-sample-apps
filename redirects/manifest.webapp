@@ -1,0 +1,25 @@
+{
+  "launch_path": "/index.html",
+  "default_locale": "en",
+  "fullscreen": "true",
+  "orientation": [
+    "portrait"
+  ],
+  "origin": "https://firefoxos.non-existent-domain-asdfg.com",
+  "name": "Test Redirection",
+  "version": "0.0.1",
+  "description": "Test Redirection inside Firefox OS",
+  "locales": {
+    "en_US": {
+      "name": "Test Redirection"
+    }
+  },
+  "type": "privileged",
+  "permissions": {
+    "systemXHR": {}
+  },
+  "redirects": [
+    {"from": "http://firefoxos.non-existent-domain-asdfg.com/authenticated.html",
+       "to": "/redirects/authenticated.html"}
+  ]
+}
