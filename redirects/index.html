@@ -6,16 +6,7 @@
 </head>
 <body>
 Just testing to see if this even loads.
-<script type="text/javascript">
-<!--
-function testRedirectSource(){
-    window.open("http://firefoxos.non-existent-domain-asdfg/authenticated.html");
-}
-function testRedirectTarget(){
-    window.open("/redirects/authenticated.html");
-}
-//-->
-</script>
+<script type='text/javascript' src="/source.js"></script>
 <p>
 <input type="button" value="Open via redirection" onclick="testRedirectSource()"/>
 <input type="button" value="Open directly" onclick="testRedirectTarget()"/>
