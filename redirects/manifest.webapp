@@ -5,7 +5,7 @@
   "orientation": [
     "portrait"
   ],
-  "origin": "https://firefoxos.non-existent-domain-asdfg.com",
+  "origin": "http://firefoxos.non-existent-domain-asdfg.com",
   "name": "Test Redirection",
   "version": "0.0.1",
   "description": "Test Redirection inside Firefox OS",
